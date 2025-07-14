@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  padding-top: 30px;       
+  min-height: 100vh;
+
+  .formGroup {
+    line-height: 10px;
+    color: black;
+    text-align: center;
+  }
+}
+.errorText {
+    color: rgb(247, 5, 5);
+    font-size: 12px;
+    margin: 2px 0 10px 0;
+    text-align: left;
+    padding-left: 2px;
+}
+.textFieldSpacing {
+  margin-bottom: 1rem; 
+}
+h1 {
+  margin-top: 0.2rem;       
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;           
+  padding-top: 0.5rem;      
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.submitButton {
+  padding: 0.5rem 1rem;
+  background-color: #007bc0;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 1rem auto 0 auto;
+  display: block;
+}
+
+.toggleText {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  color: black;
+}
+
+.toggleText span {
+  color: #007bc0;
+  cursor: pointer;
+  margin-left: 0.3rem;
+}

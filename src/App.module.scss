@@ -1,0 +1,23 @@
+// @import "@bosch/frontend.kit-npm/dist/frontend-kit.css";
+
+#root {
+  margin: 0;
+  padding: 0;
+  background-color: #fff !important;
+  min-height: 100vh;
+}
+
+.pageWrapper {
+  min-height: 100vh;
+  background-color: #f6f8fb;
+}
+
+.contentWrapper {
+  padding-top: 120px; 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: calc(100vh - 120px);
+}
+
+

@@ -1,0 +1,6 @@
+.indicator-wrapper {
+  > div {
+    position: fixed;
+    z-index: 99999999;
+  }
+}
