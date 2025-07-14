@@ -27,18 +27,10 @@ const TodoItem = ({ id, text, completed, index }: Props) => {
 
       <td style={{ textAlign: 'left' }}>
         {isEditing ? (
-          <input
-            value={editText}
-            onChange={(e) => setEditText(e.target.value)}
-            style={{ width: '100%', padding: '4px' }}
-          />
+          <input value={editText} onChange={(e) => setEditText(e.target.value)} style={{ width: '100%', padding: '4px' }} />
         ) : (
           <span
-            style={{
-              textDecoration: completed ? 'line-through' : 'none',
-              color: completed ? 'gray' : 'inherit',
-            }}
-          >
+            style={{ textDecoration: completed ? 'line-through' : 'none', color: completed ? 'gray' : 'inherit', }}>
             {text}
           </span>
         )}
@@ -55,8 +47,6 @@ const TodoItem = ({ id, text, completed, index }: Props) => {
           <input type="checkbox" onChange={() => toggleTodo(id)} />
         )}
       </td>
-
-
 
       <td style={{ textAlign: 'center' }}>
         {isEditing ? (
